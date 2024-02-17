@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthServer", "JWTAuthServer\JWTAuthServer.csproj", "{5010C1C0-6822-459E-8C5F-6DC4053E4381}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthServer.Services", "JWTAuthServer.Services\JWTAuthServer.Services.csproj", "{8B4AE9C1-AE11-404B-9C5D-E95CCA79F5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthServer.Common", "JWTAuthServer.Models\JWTAuthServer.Common.csproj", "{235BE383-9AE1-4836-8BF8-6EE61C235BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5010C1C0-6822-459E-8C5F-6DC4053E4381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5010C1C0-6822-459E-8C5F-6DC4053E4381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5010C1C0-6822-459E-8C5F-6DC4053E4381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5010C1C0-6822-459E-8C5F-6DC4053E4381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4AE9C1-AE11-404B-9C5D-E95CCA79F5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4AE9C1-AE11-404B-9C5D-E95CCA79F5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4AE9C1-AE11-404B-9C5D-E95CCA79F5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4AE9C1-AE11-404B-9C5D-E95CCA79F5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235BE383-9AE1-4836-8BF8-6EE61C235BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235BE383-9AE1-4836-8BF8-6EE61C235BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235BE383-9AE1-4836-8BF8-6EE61C235BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235BE383-9AE1-4836-8BF8-6EE61C235BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9879C193-B3F2-4B8A-B4C3-26117B5E9F86}
+	EndGlobalSection
+EndGlobal
